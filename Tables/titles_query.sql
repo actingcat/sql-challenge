@@ -1,0 +1,5 @@
+CREATE TABLE titles (
+    id SERIAL PRIMARY KEY,
+    title_id VARCHAR(50) NOT NULL,
+    title VARCHAR(50) NOT NULL
+);
